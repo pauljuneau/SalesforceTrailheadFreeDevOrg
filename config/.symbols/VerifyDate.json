@@ -1,0 +1,188 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p3600000HiNhSAAV",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p3600000HiNhSAAV",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 4
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "CheckDates",
+            "parameters": [
+                {
+                    "name": "date1",
+                    "type": "Date"
+                },
+                {
+                    "name": "date2",
+                    "type": "Date"
+                }
+            ],
+            "references": [],
+            "returnType": "Date",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 14
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "DateWithin30Days",
+            "parameters": [
+                {
+                    "name": "date1",
+                    "type": "Date"
+                },
+                {
+                    "name": "date2",
+                    "type": "Date"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 25
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "SetEndOfMonthDate",
+            "parameters": [
+                {
+                    "name": "date1",
+                    "type": "Date"
+                }
+            ],
+            "references": [],
+            "returnType": "Date",
+            "type": null
+        }
+    ],
+    "name": "VerifyDate",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "VerifyDate",
+        "references": [],
+        "type": "VerifyDate"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 4
+            },
+            "modifiers": [],
+            "name": "date1",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 4
+            },
+            "modifiers": [],
+            "name": "date2",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 14
+            },
+            "modifiers": [],
+            "name": "date1",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 14
+            },
+            "modifiers": [],
+            "name": "date2",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 19
+            },
+            "modifiers": [],
+            "name": "date30Days",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 25
+            },
+            "modifiers": [],
+            "name": "date1",
+            "references": [],
+            "type": "Date"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 26
+            },
+            "modifiers": [],
+            "name": "totalDays",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 8,
+                "line": 27
+            },
+            "modifiers": [],
+            "name": "lastDay",
+            "references": [],
+            "type": "Date"
+        }
+    ]
+}

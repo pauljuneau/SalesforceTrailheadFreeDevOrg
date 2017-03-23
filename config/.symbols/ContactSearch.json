@@ -1,0 +1,87 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p3600000IlMdaAAF",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p3600000IlMdaAAF",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 4
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "searchForContacts",
+            "parameters": [
+                {
+                    "name": "lastname",
+                    "type": "String"
+                },
+                {
+                    "name": "Postalcode",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        }
+    ],
+    "name": "ContactSearch",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 3
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "ContactSearch",
+        "references": [],
+        "type": "ContactSearch"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 58,
+                "line": 4
+            },
+            "modifiers": [],
+            "name": "lastname",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 75,
+                "line": 4
+            },
+            "modifiers": [],
+            "name": "Postalcode",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 5
+            },
+            "modifiers": [],
+            "name": "con",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

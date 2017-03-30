@@ -311,6 +311,15 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Match_Billing_Address__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Used in trailhead module: Developer Beginner &gt;&gt; Apex Triggers &gt;&gt; Get Started with Apex Triggers.  Purpose of field is to be combined with Billing Postal Code field in AccountAddressTrigger.  If Match_Billing_Address__c is true and Account has a Billing Postal Code, then the record should have Shipping Postal Code set to match on insert or update.</description>
+        <externalId>false</externalId>
+        <label>Match Billing Address</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>NaicsCode</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>

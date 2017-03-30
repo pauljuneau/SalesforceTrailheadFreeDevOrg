@@ -6783,5 +6783,21 @@
         "manageableState": "unmanaged",
         "type": "ApexClass",
         "mmState": "clean"
+    },
+    "AccountAddressTrigger.trigger": {
+        "id": "01q36000001N6JmAAK",
+        "name": "AccountAddressTrigger",
+        "createdDate": "2017-03-30T15:15:34.000+0000",
+        "createdById": "00536000002KqDDAA0",
+        "namespacePrefix": null,
+        "lastModifiedById": "00536000002KqDDAA0",
+        "lastModifiedDate": "2017-03-30T15:23:37.000+0000",
+        "fullName": "AccountAddressTrigger",
+        "fileName": "unpackaged/triggers/AccountAddressTrigger.trigger",
+        "createdByName": "Paul Juneau",
+        "lastModifiedByName": "Paul Juneau",
+        "manageableState": "unmanaged",
+        "type": "ApexTrigger",
+        "mmState": "clean"
     }
 }

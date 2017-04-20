@@ -90,6 +90,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>TestRestrictContactByName</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>TestVerifyDate</apexClass>
         <enabled>false</enabled>
     </classAccesses>

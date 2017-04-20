@@ -1,0 +1,142 @@
+39.0 APEX_CODE,FINEST;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+16:10:09.0 (517181)|USER_INFO|[EXTERNAL]|00536000002KqDD|pjuneau@trailhead.com|Pacific Standard Time|GMT-07:00
+16:10:09.0 (584819)|EXECUTION_STARTED
+16:10:09.0 (591596)|CODE_UNIT_STARTED|[EXTERNAL]|01p3600000IlsQn|TestRestrictContactByName.contactInsertFail
+16:10:09.0 (910469)|HEAP_ALLOCATE|[72]|Bytes:3
+16:10:09.0 (998602)|HEAP_ALLOCATE|[77]|Bytes:152
+16:10:09.0 (1020197)|HEAP_ALLOCATE|[342]|Bytes:408
+16:10:09.0 (1043072)|HEAP_ALLOCATE|[355]|Bytes:408
+16:10:09.0 (1063459)|HEAP_ALLOCATE|[467]|Bytes:48
+16:10:09.0 (1097627)|HEAP_ALLOCATE|[139]|Bytes:6
+16:10:09.0 (1115794)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:20
+16:10:09.0 (1167412)|METHOD_ENTRY|[2]|01p3600000IlsQn|TestRestrictContactByName.TestRestrictContactByName()
+16:10:09.0 (1173587)|STATEMENT_EXECUTE|[2]
+16:10:09.0 (1182243)|STATEMENT_EXECUTE|[2]
+16:10:09.0 (1187392)|METHOD_EXIT|[2]|TestRestrictContactByName
+16:10:09.0 (1358657)|HEAP_ALLOCATE|[50]|Bytes:5
+16:10:09.0 (1403778)|HEAP_ALLOCATE|[56]|Bytes:5
+16:10:09.0 (1422249)|HEAP_ALLOCATE|[64]|Bytes:7
+16:10:09.0 (1497801)|STATEMENT_EXECUTE|[3]
+16:10:09.0 (1502676)|STATEMENT_EXECUTE|[4]
+16:10:09.0 (1511576)|VARIABLE_SCOPE_BEGIN|[4]|insertFailed|Boolean|false|false
+16:10:09.0 (1791253)|VARIABLE_ASSIGNMENT|[4]|insertFailed|null
+16:10:09.0 (1795352)|STATEMENT_EXECUTE|[5]
+16:10:09.0 (1855755)|HEAP_ALLOCATE|[5]|Bytes:4
+16:10:09.0 (1990665)|HEAP_ALLOCATE|[5]|Bytes:4
+16:10:09.0 (2072924)|VARIABLE_ASSIGNMENT|[5]|this.FirstName|"Paul"|0x482ccadc
+16:10:09.0 (2080751)|HEAP_ALLOCATE|[5]|Bytes:11
+16:10:09.0 (2110591)|VARIABLE_ASSIGNMENT|[5]|this.LastName|"INVALIDNAME"|0x482ccadc
+16:10:09.0 (2146215)|VARIABLE_SCOPE_BEGIN|[5]|con|Contact|true|false
+16:10:09.0 (2165178)|VARIABLE_ASSIGNMENT|[5]|con|{"FirstName":"Paul","LastName":"INVALIDNAME"}|0x482ccadc
+16:10:09.0 (2168365)|STATEMENT_EXECUTE|[6]
+16:10:09.0 (2169674)|STATEMENT_EXECUTE|[6]
+16:10:09.0 (2170777)|STATEMENT_EXECUTE|[7]
+16:10:09.0 (2211986)|HEAP_ALLOCATE|[7]|Bytes:63
+16:10:09.0 (2222584)|SYSTEM_METHOD_ENTRY|[1]|Test.Test()
+16:10:09.0 (2226643)|STATEMENT_EXECUTE|[1]
+16:10:09.0 (2238057)|SYSTEM_METHOD_EXIT|[1]|Test
+16:10:09.0 (2257063)|METHOD_ENTRY|[7]||System.Test.startTest()
+16:10:09.0 (4918011)|METHOD_EXIT|[7]||System.Test.startTest()
+16:10:09.0 (4928872)|STATEMENT_EXECUTE|[8]
+16:10:09.0 (4972405)|HEAP_ALLOCATE|[8]|Bytes:8
+16:10:09.0 (4982577)|DML_BEGIN|[8]|Op:Insert|Type:Contact|Rows:1
+16:10:09.0 (5028097)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+16:10:09.0 (19092962)|CODE_UNIT_STARTED|[EXTERNAL]|01q36000001N8Mg|RestrictContactByName on Contact trigger event BeforeInsert for [new]
+16:10:09.0 (19147120)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+16:10:09.0 (19265687)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+16:10:09.0 (19285935)|VARIABLE_SCOPE_BEGIN|[1]|this|RestrictContactByName|true|false
+16:10:09.0 (19367578)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x3fe305d6
+16:10:09.0 (19429185)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+16:10:09.0 (19530211)|VARIABLE_SCOPE_BEGIN|[1]|this|RestrictContactByName|true|false
+16:10:09.0 (19547339)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x3fe305d6
+16:10:09.0 (19554010)|STATEMENT_EXECUTE|[1]
+16:10:09.0 (19877777)|HEAP_ALLOCATE|[4]|Bytes:5
+16:10:09.0 (19916038)|HEAP_ALLOCATE|[4]|Bytes:4
+16:10:09.0 (19935841)|VARIABLE_SCOPE_BEGIN|[4]|c|Contact|true|false
+16:10:09.0 (21066216)|VARIABLE_ASSIGNMENT|[4]|c|{"IsDeleted":false,"IsEmailBounced":false,"CleanStatus":"Pending","DoNotCall":false,"OwnerId":"00536000002KqDDAA0","FirstName":"Paul","HasOptedOutOfEmail":false,"HasOptedOutOfFax":false,"LastName":"INVALIDNAME"}|0x1bbf02ba
+16:10:09.0 (21073963)|STATEMENT_EXECUTE|[4]
+16:10:09.0 (21131059)|STATEMENT_EXECUTE|[5]
+16:10:09.0 (21135904)|STATEMENT_EXECUTE|[6]
+16:10:09.0 (21147519)|HEAP_ALLOCATE|[6]|Bytes:15
+16:10:09.0 (21161134)|HEAP_ALLOCATE|[6]|Bytes:24
+16:10:09.0 (21179540)|HEAP_ALLOCATE|[6]|Bytes:50
+16:10:09.0 (21330331)|VF_PAGE_MESSAGE|The Last Name "INVALIDNAME" is not allowed for DML
+16:10:09.0 (21370966)|HEAP_ALLOCATE|[4]|Bytes:5
+16:10:09.0 (21392499)|VARIABLE_ASSIGNMENT|[4]|c|null|
+16:10:09.21 (21407903)|CUMULATIVE_LIMIT_USAGE
+16:10:09.21 (21407903)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+16:10:09.21 (21407903)|TESTING_LIMITS
+16:10:09.21 (21407903)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 1 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+16:10:09.21 (21407903)|CUMULATIVE_LIMIT_USAGE_END
+
+16:10:09.0 (22883304)|CODE_UNIT_FINISHED|RestrictContactByName on Contact trigger event BeforeInsert for [new]
+16:10:09.0 (24958372)|DML_END|[8]
+16:10:09.0 (25103035)|EXCEPTION_THROWN|[8]|System.DmlException: Insert failed. First exception on row 0; first error: FIELD_CUSTOM_VALIDATION_EXCEPTION, The Last Name "INVALIDNAME" is not allowed for DML: []
+16:10:09.0 (25749767)|HEAP_ALLOCATE|[8]|Bytes:147
+16:10:09.0 (25795034)|VARIABLE_SCOPE_BEGIN|[11]|e|Exception|true|false
+16:10:09.0 (25900409)|VARIABLE_ASSIGNMENT|[11]|e|"common.apex.runtime.impl.DmlExecutionException: Insert failed. First exception on row 0; first error: FIELD_CUSTOM_VALIDATION_EXCEPTION, The Last Name \"INVALIDNAME\" is not allowed for DML: []"|0x212ef5b6
+16:10:09.0 (25906994)|STATEMENT_EXECUTE|[11]
+16:10:09.0 (25908693)|STATEMENT_EXECUTE|[12]
+16:10:09.0 (25915628)|HEAP_ALLOCATE|[12]|Bytes:5
+16:10:09.0 (25924599)|VARIABLE_ASSIGNMENT|[12]|insertFailed|true
+16:10:09.0 (25927922)|STATEMENT_EXECUTE|[14]
+16:10:09.25 (25988810)|CUMULATIVE_LIMIT_USAGE
+16:10:09.25 (25988810)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+16:10:09.25 (25988810)|TESTING_LIMITS
+16:10:09.25 (25988810)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 1 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+16:10:09.25 (25988810)|CUMULATIVE_LIMIT_USAGE_END
+
+16:10:09.0 (26016842)|CODE_UNIT_FINISHED|TestRestrictContactByName.contactInsertFail
+16:10:09.0 (27833121)|EXECUTION_FINISHED

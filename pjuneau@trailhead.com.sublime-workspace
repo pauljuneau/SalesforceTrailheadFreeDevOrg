@@ -19,6 +19,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/classes/EmailManager.cls",
+			"settings":
+			{
+				"buffer_size": 1536,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/triggers/AccountAddressTrigger.trigger",
+			"settings":
+			{
+				"buffer_size": 600,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/triggers/ClosedOpportunityTrigger.trigger",
+			"settings":
+			{
+				"buffer_size": 744,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -57,9 +81,8 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/pjuneau/mavensmate/pjuneau@trailhead.com",
 		"/C/Users/pjuneau/mavensmate/pjuneau@trailhead.com/src",
-		"/C/Users/pjuneau/mavensmate/pjuneau@trailhead.com/src/classes"
+		"/C/Users/pjuneau/mavensmate/pjuneau@trailhead.com/src/triggers"
 	],
 	"file_history":
 	[
@@ -185,6 +208,92 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/classes/EmailManager.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1536,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								886,
+								886
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/triggers/AccountAddressTrigger.trigger",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 600,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								597,
+								597
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/triggers/ClosedOpportunityTrigger.trigger",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 744,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								342,
+								342
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -268,7 +377,7 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 551.0,
 	"status_bar_visible": true,
 	"template_settings":

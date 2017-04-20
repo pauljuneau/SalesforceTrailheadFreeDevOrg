@@ -81,6 +81,7 @@
 	},
 	"expanded_folders":
 	[
+		"/C/Users/pjuneau/mavensmate/pjuneau@trailhead.com",
 		"/C/Users/pjuneau/mavensmate/pjuneau@trailhead.com/src",
 		"/C/Users/pjuneau/mavensmate/pjuneau@trailhead.com/src/triggers"
 	],
@@ -285,7 +286,9 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax"
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -377,7 +380,7 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 551.0,
 	"status_bar_visible": true,
 	"template_settings":

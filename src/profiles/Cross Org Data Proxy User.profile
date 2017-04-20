@@ -86,6 +86,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>RandomContactFactory</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>StringArrayTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>

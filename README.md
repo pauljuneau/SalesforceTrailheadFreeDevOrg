@@ -4,4 +4,4 @@
 
 ### Developer Beginner
 * Visualforce Basics
-..* [AccountSummary.page](master/src/pages/AccountSummary.page)
+  * [AccountSummary.page](/src/pages/AccountSummary.page)

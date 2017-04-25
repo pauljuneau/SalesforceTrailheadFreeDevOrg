@@ -4,4 +4,6 @@
 
 ### Developer Beginner
 * Visualforce Basics
-  * [AccountSummary.page](/src/pages/AccountSummary.page)
+  * Use Standard Controllers
+    *[AccountSummary.page](/src/pages/AccountSummary.page)
+    *[ContactView.page](/src/pages/ContactView.page)

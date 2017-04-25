@@ -1,10 +1,10 @@
 {
     "constructors": [],
     "externalReferences": [],
-    "id": "01p3600000FboekAAB",
+    "id": "EmailManager",
     "innerClasses": [],
     "interfaces": [],
-    "key": "01p3600000FboekAAB",
+    "key": "EmailManager",
     "methods": [
         {
             "annotations": [],
@@ -49,7 +49,7 @@
             "parameters": [
                 {
                     "name": "results",
-                    "type": "LIST"
+                    "type": "List"
                 }
             ],
             "references": [],
@@ -117,7 +117,7 @@
             "modifiers": [],
             "name": "mail",
             "references": [],
-            "type": "SingleEmailMessage"
+            "type": "Messaging.SingleEmailMessage"
         },
         {
             "annotations": [],
@@ -128,7 +128,7 @@
             "modifiers": [],
             "name": "toAddresses",
             "references": [],
-            "type": "LIST"
+            "type": "List<String>"
         },
         {
             "annotations": [],
@@ -139,7 +139,7 @@
             "modifiers": [],
             "name": "results",
             "references": [],
-            "type": "LIST"
+            "type": "List<Messaging.SendEmailResult>"
         },
         {
             "annotations": [],
@@ -150,7 +150,7 @@
             "modifiers": [],
             "name": "results",
             "references": [],
-            "type": "LIST"
+            "type": "List<Messaging.SendEmailResult>"
         },
         {
             "annotations": [],
@@ -172,7 +172,7 @@
             "modifiers": [],
             "name": "res",
             "references": [],
-            "type": "SendEmailResult"
+            "type": "Messaging.SendEmailResult"
         }
     ]
 }

@@ -1,10 +1,10 @@
 {
     "constructors": [],
     "externalReferences": [],
-    "id": "01p3600000IlMdaAAF",
+    "id": "ContactSearch",
     "innerClasses": [],
     "interfaces": [],
-    "key": "01p3600000IlMdaAAF",
+    "key": "ContactSearch",
     "methods": [
         {
             "annotations": [],
@@ -28,7 +28,7 @@
                 }
             ],
             "references": [],
-            "returnType": "LIST",
+            "returnType": "List",
             "type": null
         }
     ],
@@ -81,7 +81,7 @@
             "modifiers": [],
             "name": "con",
             "references": [],
-            "type": "LIST"
+            "type": "List<Contact>"
         }
     ]
 }

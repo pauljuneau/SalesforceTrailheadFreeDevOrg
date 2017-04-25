@@ -1,26 +1,30 @@
 {
     "constructors": [],
     "externalReferences": [],
-    "id": "StringArrayTest",
+    "id": "RandomContactFactory",
     "innerClasses": [],
     "interfaces": [],
-    "key": "StringArrayTest",
+    "key": "RandomContactFactory",
     "methods": [
         {
             "annotations": [],
             "location": {
                 "column": 32,
-                "line": 5
+                "line": 2
             },
             "modifiers": [
                 "static",
                 "public"
             ],
-            "name": "generateStringArray",
+            "name": "generateRandomContacts",
             "parameters": [
                 {
-                    "name": "n",
+                    "name": "numContacts",
                     "type": "Integer"
+                },
+                {
+                    "name": "lastname",
+                    "type": "String"
                 }
             ],
             "references": [],
@@ -28,7 +32,7 @@
             "type": null
         }
     ],
-    "name": "StringArrayTest",
+    "name": "RandomContactFactory",
     "namespace": null,
     "parentClass": "",
     "properties": [],
@@ -41,54 +45,65 @@
         "modifiers": [
             "public"
         ],
-        "name": "StringArrayTest",
+        "name": "RandomContactFactory",
         "references": [],
-        "type": "StringArrayTest"
+        "type": "RandomContactFactory"
     },
     "variables": [
         {
             "annotations": [],
             "location": {
-                "column": 60,
-                "line": 5
+                "column": 63,
+                "line": 2
             },
             "modifiers": [],
-            "name": "n",
+            "name": "numContacts",
             "references": [],
             "type": "Integer"
         },
         {
             "annotations": [],
             "location": {
-                "column": 16,
-                "line": 6
+                "column": 82,
+                "line": 2
             },
             "modifiers": [],
-            "name": "test",
+            "name": "lastname",
             "references": [],
             "type": "String"
         },
         {
             "annotations": [],
             "location": {
-                "column": 23,
-                "line": 8
+                "column": 22,
+                "line": 3
             },
             "modifiers": [],
-            "name": "tests",
+            "name": "contactList",
             "references": [],
-            "type": "List<String>"
+            "type": "List<Contact>"
         },
         {
             "annotations": [],
             "location": {
-                "column": 21,
-                "line": 11
+                "column": 20,
+                "line": 4
             },
             "modifiers": [],
             "name": "i",
             "references": [],
             "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 5
+            },
+            "modifiers": [],
+            "name": "testContact",
+            "references": [],
+            "type": "Contact"
         }
     ]
 }

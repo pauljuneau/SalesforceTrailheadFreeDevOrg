@@ -1,10 +1,10 @@
 {
     "constructors": [],
     "externalReferences": [],
-    "id": "01p3600000IlMdsAAF",
+    "id": "ContactAndLeadSearch",
     "innerClasses": [],
     "interfaces": [],
-    "key": "01p3600000IlMdsAAF",
+    "key": "ContactAndLeadSearch",
     "methods": [
         {
             "annotations": [],
@@ -24,7 +24,7 @@
                 }
             ],
             "references": [],
-            "returnType": "LIST",
+            "returnType": "List",
             "type": null
         }
     ],
@@ -66,7 +66,7 @@
             "modifiers": [],
             "name": "searchList",
             "references": [],
-            "type": "LIST"
+            "type": "List<List<SObject>>"
         }
     ]
 }

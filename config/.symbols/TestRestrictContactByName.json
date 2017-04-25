@@ -1,10 +1,10 @@
 {
     "constructors": [],
     "externalReferences": [],
-    "id": "AppleWatchTest",
+    "id": "TestRestrictContactByName",
     "innerClasses": [],
     "interfaces": [],
-    "key": "AppleWatchTest",
+    "key": "TestRestrictContactByName",
     "methods": [
         {
             "annotations": [
@@ -13,22 +13,22 @@
                 }
             ],
             "location": {
-                "column": 22,
-                "line": 4
+                "column": 25,
+                "line": 3
             },
             "modifiers": [
                 "private",
                 "static",
                 "testMethod"
             ],
-            "name": "createOpportunity",
+            "name": "contactInsertFail",
             "parameters": [],
             "references": [],
             "returnType": "void",
             "type": null
         }
     ],
-    "name": "AppleWatchTest",
+    "name": "TestRestrictContactByName",
     "namespace": null,
     "parentClass": "",
     "properties": [],
@@ -46,21 +46,32 @@
             "private",
             "testMethod"
         ],
-        "name": "AppleWatchTest",
+        "name": "TestRestrictContactByName",
         "references": [],
-        "type": "AppleWatchTest"
+        "type": "TestRestrictContactByName"
     },
     "variables": [
         {
             "annotations": [],
             "location": {
-                "column": 15,
+                "column": 11,
+                "line": 4
+            },
+            "modifiers": [],
+            "name": "insertFailed",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
                 "line": 5
             },
             "modifiers": [],
-            "name": "opp",
+            "name": "con",
             "references": [],
-            "type": "Opportunity"
+            "type": "Contact"
         }
     ]
 }

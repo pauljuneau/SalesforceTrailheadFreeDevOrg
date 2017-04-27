@@ -14,5 +14,5 @@
 	* [AccountEdit.page]( src/pages/AccountEdit.page)
 	* [CreateContact.page](src/pages/CreateContact.page)
   * Use Standard List Controllers
-  	* [ContactList.page] (src/pages/ContactList.page)
-	* [AccountList.page] (src/pages/AccountList.page)
+  	* [ContactList.page]( src/pages/ContactList.page)
+	* [AccountList.page]( src/pages/AccountList.page)

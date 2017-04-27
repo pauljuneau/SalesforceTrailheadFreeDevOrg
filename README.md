@@ -16,3 +16,10 @@
   * Use Standard List Controllers
   	* [ContactList.page]( src/pages/ContactList.page)
 	* [AccountList.page]( src/pages/AccountList.page)
+  * Use Static Resources
+  	* [HelloJQuery.page]( src/pages/HelloJQuery.page)
+	* [jQueryMobileResources.page]( src/pages/jQueryMobileResources.page)
+	* [ShowImage.page]( src/pages/ShowImage.page)
+	* [jQuery.resource]( src/staticresources/jQuery.resource)
+	* [jQueryMobile.resource]( src/staticresources/jQueryMobile.resource)
+	* [vfimagetest.resource]( src/staticresources/vfimagetest.resource)

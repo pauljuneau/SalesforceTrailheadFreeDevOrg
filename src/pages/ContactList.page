@@ -1,0 +1,70 @@
+<!-- This is a standard list controller because the recordSetVar parameter is added in apex:page tag
+Other iteration components examples: <apex:dataList>, <apex:repeat>. 
+The standard list controller is based on the StandardSetController Apex class.
+Sorting cannot be done through VisualForce alone. -->
+
+<apex:page standardController="Contact" recordSetVar="contacts">
+    <apex:form >
+
+        <apex:pageBlock title="Contacts List" id="contacts_list">
+        
+            Filter:&nbsp; 
+            <apex:selectList value="{! filterId }" size="1"> 
+                <apex:selectOptions value="{! listViewOptions }"/> <!--These are List Views defined for the context object-->
+                <apex:actionSupport event="onchange" reRender="contacts_list"/> <!--Only reloads Contacts List pageBlock via "Ajax" asynchronous JavaScript effect-->
+            </apex:selectList>
+
+            <!-- Contacts List -->
+            <apex:pageBlockTable value="{! contacts }" var="ct">
+                <apex:column value="{! ct.FirstName }"/>
+                <apex:column value="{! ct.LastName }"/>
+                <apex:column value="{! ct.Email }"/>
+                <apex:column value="{! ct.Account.Name }"/>
+            </apex:pageBlockTable>
+            
+            <!-- Pagination -->
+            <table style="width: 100%"><tr>
+            
+                <td>
+                    Page: <apex:outputText value=" {!PageNumber} of {! CEILING(ResultSize / PageSize) }"/> <!-- Rounds number off to nearest integer -->
+                </td>            
+                
+                <!-- apex:commandLink components reference two action methods provided by the standard list controller, Previous and Next -->
+                <!-- In addition to Previous and Next actions, there are also First and Last actions that go to the beginning or end of the list of records-->
+                <!-- markup is referencing Boolean properties provided by the standard list controller, HasPrevious and HasNext -->
+                <td align="center"> 
+                    <!-- Previous page -->
+                    <!-- active -->
+                    <apex:commandLink action="{! Previous }" value="« Previous"
+                         rendered="{! HasPrevious }"/>
+                    <!-- inactive (no earlier pages) -->
+                    <apex:outputText style="color: #ccc;" value="« Previous"
+                         rendered="{! NOT(HasPrevious) }"/>
+                    
+                    &nbsp;&nbsp;  
+                    
+                    <!-- Next page -->
+                    <!-- active -->
+                    <apex:commandLink action="{! Next }" value="Next »"
+                         rendered="{! HasNext }"/>
+                    <!-- inactive (no more pages) -->
+                    <apex:outputText style="color: #ccc;" value="Next »"
+                         rendered="{! NOT(HasNext) }"/>
+                </td>
+                
+                <td align="right">
+                    Records per page: &nbsp;
+                    <apex:selectList value="{! PageSize }" size="1"> <!-- sets the standard list controller's PageSize property-->
+                        <apex:selectOption itemValue="5" itemLabel="5"/>
+                        <apex:selectOption itemValue="20" itemLabel="20"/>
+                        <apex:actionSupport event="onchange" reRender="contacts_list"/>
+                    </apex:selectList>
+                </td>
+            
+            </tr></table>
+            
+            
+        </apex:pageBlock>
+
+    </apex:form>
+</apex:page>

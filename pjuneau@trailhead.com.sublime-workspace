@@ -20,26 +20,10 @@
 	"buffers":
 	[
 		{
-			"file": "src/classes/EmailManager.cls",
-			"settings":
-			{
-				"buffer_size": 1536,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/triggers/AccountAddressTrigger.trigger",
+			"file": "src/pages/CreateContact.page",
 			"settings":
 			{
 				"buffer_size": 600,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/triggers/ClosedOpportunityTrigger.trigger",
-			"settings":
-			{
-				"buffer_size": 744,
 				"line_ending": "Unix"
 			}
 		}
@@ -83,10 +67,14 @@
 	[
 		"/C/Users/pjuneau/mavensmate/pjuneau@trailhead.com",
 		"/C/Users/pjuneau/mavensmate/pjuneau@trailhead.com/src",
+		"/C/Users/pjuneau/mavensmate/pjuneau@trailhead.com/src/pages",
 		"/C/Users/pjuneau/mavensmate/pjuneau@trailhead.com/src/triggers"
 	],
 	"file_history":
 	[
+		"/C/Users/pjuneau/mavensmate/pjuneau@trailhead.com/src/classes/EmailManager.cls",
+		"/C/Users/pjuneau/mavensmate/pjuneau@trailhead.com/src/triggers/AccountAddressTrigger.trigger",
+		"/C/Users/pjuneau/mavensmate/pjuneau@trailhead.com/src/triggers/ClosedOpportunityTrigger.trigger",
 		"/C/users/pjuneau/mavensmate/PAUL_Sandbox/src/classes/OpportunityLineItemAfterUpdateHandler.cls",
 		"/C/users/pjuneau/mavensmate/PAUL_Sandbox/src/classes/DEV7459AgeNullDataFix.cls",
 		"/C/users/pjuneau/mavensmate/PAUL_Sandbox/src/classes/CaseTriggerConstants.cls",
@@ -207,42 +195,13 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/classes/EmailManager.cls",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1536,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								886,
-								886
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/triggers/AccountAddressTrigger.trigger",
-					"semi_transient": false,
+					"file": "src/pages/CreateContact.page",
+					"semi_transient": true,
 					"settings":
 					{
 						"buffer_size": 600,
@@ -252,41 +211,13 @@
 						"selection":
 						[
 							[
-								597,
-								597
+								600,
+								600
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/triggers/ClosedOpportunityTrigger.trigger",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 744,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								342,
-								342
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax",
+							"syntax": "Packages/MavensMate/sublime/lang/Visualforce.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},

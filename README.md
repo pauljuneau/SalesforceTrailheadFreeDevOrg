@@ -23,3 +23,8 @@
 	* [jQuery.resource]( src/staticresources/jQuery.resource)
 	* [jQueryMobile.resource]( src/staticresources/jQueryMobile.resource)
 	* [vfimagetest.resource]( src/staticresources/vfimagetest.resource)
+  * Create & Use Custom Controllers
+  	* [ContactsListWithController.page]( src/pages/ContactsListWithController.page)
+	* [NewCaseList.page]( src/pages/NewCaseList.page)
+	* [ContactsListController.cls]( src/classes/ContactsListController.cls)
+	* [NewCaseListController.cls]( src/classes/NewCaseListController.cls)

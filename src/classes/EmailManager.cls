@@ -1,6 +1,11 @@
+/* Developer Beginner >. Apex Basics & Database >> Get Started with Apex
+ *
+ */
 public class EmailManager {
 
-    // Public method
+    /* Public static method - Do not need to create an instance of EmailManager. Call directly on class name.
+     *  Ex: EmailManager.sendMail('Your email address', 'Trailhead Tutorial', '123 body');
+     */
     public static void sendMail(String address, String subject, String body) {
         // Create an email message object
         Messaging.SingleEmailMessage mail = new Messaging.SingleEmailMessage();

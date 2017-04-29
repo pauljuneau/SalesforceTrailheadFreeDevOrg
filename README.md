@@ -3,6 +3,9 @@
 ## Table of Contents:
 
 ### Developer Beginner
+* Apex Basics & Database
+  * Manipulate Records with DML challenge
+    * [AccountHandler.cls]( src/classes/AccountHandler.cls)
 * Apex Triggers
   * Get Started with Apex Triggers
     * [AccountAddressTrigger.trigger]( src/triggers/AccountAddressTrigger.trigger)

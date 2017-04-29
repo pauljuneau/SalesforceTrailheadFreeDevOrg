@@ -18,6 +18,8 @@
  *   SearchGroup is optional. It is the scope of fields to search.  Default search scope is all fields. SearchGroup options:
  *     ALL FIELDS, NAME FIELDS, EMAIL FIELDS, PHONE FIELDS, SIDEBAR FIELDS  --Only can use one option per SOSL query.
  *   ObjectsAndFields is optional. If not specified, the search results contain the IDs of all objects found.
+ *   Can add WHERE clauses, ORDER BY, and limits to RETURNING.  
+ *      Ex: RETURNING Account(Name, Industry WHERE Industry='Apparel' ORDER BY NAME LIMIT 10) 
  */
 
 public class ContactAndLeadSearch

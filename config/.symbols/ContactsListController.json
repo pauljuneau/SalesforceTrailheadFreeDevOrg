@@ -1,0 +1,99 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "ContactsListController",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "ContactsListController",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 11
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getContacts",
+            "parameters": [],
+            "references": [],
+            "returnType": "List",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 23
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "sortByLastName",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 27
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "sortByFirstName",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "ContactsListController",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 2
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "sortOrder",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "ContactsListController",
+        "references": [],
+        "type": "ContactsListController"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 13
+            },
+            "modifiers": [],
+            "name": "results",
+            "references": [],
+            "type": "List<Contact>"
+        }
+    ]
+}

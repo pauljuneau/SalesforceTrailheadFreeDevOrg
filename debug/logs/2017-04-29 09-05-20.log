@@ -1,0 +1,27 @@
+39.0 APEX_CODE,FINEST;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+09:05:18.0 (568339)|USER_INFO|[EXTERNAL]|00536000002KqDD|pjuneau@trailhead.com|Pacific Standard Time|GMT-07:00
+09:05:18.0 (630280)|EXECUTION_STARTED
+09:05:18.0 (638935)|CODE_UNIT_STARTED|[EXTERNAL]|06636000006SR8i|VF: /apex/StationCheck
+09:05:18.0 (17718065)|VF_SERIALIZE_VIEWSTATE_BEGIN|06636000006SR8i
+09:05:18.0 (35915171)|VF_SERIALIZE_VIEWSTATE_END
+09:05:18.0 (36972443)|CODE_UNIT_STARTED|[EXTERNAL]|Generate Metadata
+09:05:18.0 (38796369)|CODE_UNIT_FINISHED|Generate Metadata
+09:05:18.42 (42706910)|CUMULATIVE_LIMIT_USAGE
+09:05:18.42 (42706910)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+09:05:18.42 (42706910)|CUMULATIVE_LIMIT_USAGE_END
+
+09:05:18.0 (42755008)|CODE_UNIT_FINISHED|VF: /apex/StationCheck
+09:05:18.0 (44174428)|EXECUTION_FINISHED

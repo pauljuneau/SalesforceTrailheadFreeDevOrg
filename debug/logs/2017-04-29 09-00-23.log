@@ -1,0 +1,27 @@
+39.0 APEX_CODE,FINEST;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+09:00:20.0 (535537)|USER_INFO|[EXTERNAL]|00536000002KqDD|pjuneau@trailhead.com|Pacific Standard Time|GMT-07:00
+09:00:20.0 (571165)|EXECUTION_STARTED
+09:00:20.0 (574803)|CODE_UNIT_STARTED|[EXTERNAL]|06636000006SR8Y|VF: /apex/FlightSystemsChecklist
+09:00:20.0 (31045159)|VF_SERIALIZE_VIEWSTATE_BEGIN|06636000006SR8Y
+09:00:20.0 (51914237)|VF_SERIALIZE_VIEWSTATE_END
+09:00:20.0 (53949412)|CODE_UNIT_STARTED|[EXTERNAL]|Generate Metadata
+09:00:20.0 (67376168)|CODE_UNIT_FINISHED|Generate Metadata
+09:00:20.72 (72985390)|CUMULATIVE_LIMIT_USAGE
+09:00:20.72 (72985390)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+09:00:20.72 (72985390)|CUMULATIVE_LIMIT_USAGE_END
+
+09:00:20.0 (73037815)|CODE_UNIT_FINISHED|VF: /apex/FlightSystemsChecklist
+09:00:20.0 (75777805)|EXECUTION_FINISHED

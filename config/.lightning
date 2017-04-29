@@ -1,1 +1,138 @@
-[]
+[
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Ad360000007wRuCAI"
+        },
+        "Id": "0Ad360000007wRuCAI",
+        "AuraDefinitionBundleId": "0Ab360000004ps5CAA",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Ab360000004ps5CAA"
+            },
+            "DeveloperName": "meetGreet"
+        },
+        "DefType": "HELPER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Ad360000007wRpCAI"
+        },
+        "Id": "0Ad360000007wRpCAI",
+        "AuraDefinitionBundleId": "0Ab360000004ps5CAA",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Ab360000004ps5CAA"
+            },
+            "DeveloperName": "meetGreet"
+        },
+        "DefType": "CONTROLLER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Ad360000007wRkCAI"
+        },
+        "Id": "0Ad360000007wRkCAI",
+        "AuraDefinitionBundleId": "0Ab360000004ps5CAA",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Ab360000004ps5CAA"
+            },
+            "DeveloperName": "meetGreet"
+        },
+        "DefType": "SVG",
+        "Format": "SVG"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Ad360000007wS9CAI"
+        },
+        "Id": "0Ad360000007wS9CAI",
+        "AuraDefinitionBundleId": "0Ab360000004ps5CAA",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Ab360000004ps5CAA"
+            },
+            "DeveloperName": "meetGreet"
+        },
+        "DefType": "RENDERER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Ad360000007wRzCAI"
+        },
+        "Id": "0Ad360000007wRzCAI",
+        "AuraDefinitionBundleId": "0Ab360000004ps5CAA",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Ab360000004ps5CAA"
+            },
+            "DeveloperName": "meetGreet"
+        },
+        "DefType": "STYLE",
+        "Format": "CSS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Ad360000007wRfCAI"
+        },
+        "Id": "0Ad360000007wRfCAI",
+        "AuraDefinitionBundleId": "0Ab360000004ps5CAA",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Ab360000004ps5CAA"
+            },
+            "DeveloperName": "meetGreet"
+        },
+        "DefType": "COMPONENT",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Ad360000007wSECAY"
+        },
+        "Id": "0Ad360000007wSECAY",
+        "AuraDefinitionBundleId": "0Ab360000004ps5CAA",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Ab360000004ps5CAA"
+            },
+            "DeveloperName": "meetGreet"
+        },
+        "DefType": "DESIGN",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Ad360000007wS4CAI"
+        },
+        "Id": "0Ad360000007wS4CAI",
+        "AuraDefinitionBundleId": "0Ab360000004ps5CAA",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Ab360000004ps5CAA"
+            },
+            "DeveloperName": "meetGreet"
+        },
+        "DefType": "DOCUMENTATION",
+        "Format": "XML"
+    }
+]

@@ -10,9 +10,11 @@
  * Basic SOSL query syntax:
  *  FIND 'SearchQuery' [IN SearchGroup] [RETURNING ObjectsAndFields]
  *      Search terms can be groupd with logical operators (AND, OR) and parentheses. Can also include wildcards (*,?). 
- *      * wildcard matches zero or more characters at middle or end of search term.  
- *      ? wild card matches only one character at middle or end of search term.
- *   Text searches are case-insensitive. 
+ *        * wildcard matches zero or more characters at middle or end of search term.  
+ *        ? wild card matches only one character at middle or end of search term.
+ *        Text searches are case-insensitive. 
+ *        SearchQuery can be a Single Word delimited by spaces, punctuation, and changes from letters to digits
+ *        SearchQuery can be a Phrase - collection of words and spaces surrounded by double quotes.
  *   SearchGroup is optional. It is the scope of fields to search.  Default search scope is all fields. SearchGroup options:
  *     ALL FIELDS, NAME FIELDS, EMAIL FIELDS, PHONE FIELDS, SIDEBAR FIELDS  --Only can use one option per SOSL query.
  *   ObjectsAndFields is optional. If not specified, the search results contain the IDs of all objects found.

@@ -4,9 +4,11 @@
 
 ### Developer Beginner
 * Apex Basics & Database
-  * Manipulate Records with DML challenge
+  * Manipulate Records with DML
     * [AccountHandler.cls]( src/classes/AccountHandler.cls)
-  * Write SOSL Queries challenge
+  * Write SOQL Queries
+    * [ContactSearch.cls]( src/classes/ContactSearch.cls)
+  * Write SOSL Queries
     * [ContactAndLeadSearch.cls]( src/classes/ContactAndLeadSearch.cls)
 * Apex Triggers
   * Get Started with Apex Triggers

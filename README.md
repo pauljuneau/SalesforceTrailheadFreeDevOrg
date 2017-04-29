@@ -4,6 +4,8 @@
 
 ### Developer Beginner
 * Apex Basics & Database
+  * Get Started with Apex
+    * [EmailManager.cls]( src/classes/EmailManager.cls)
   * Manipulate Records with DML
     * [AccountHandler.cls]( src/classes/AccountHandler.cls)
   * Write SOQL Queries

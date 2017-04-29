@@ -50,3 +50,6 @@
 	* [NewCaseList.page]( src/pages/NewCaseList.page)
 	* [ContactsListController.cls]( src/classes/ContactsListController.cls)
 	* [NewCaseListController.cls]( src/classes/NewCaseListController.cls)
+* Developer Console Basics
+  * Navigate and Edit Source Code
+    * [Lightning Component: meetGreet]( src/aura/meetGreet/)

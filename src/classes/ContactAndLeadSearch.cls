@@ -27,3 +27,8 @@ public class ContactAndLeadSearch
     }
 
 }
+
+/* To access list of sObjects returned:
+ *  Contact[] searchContacts = (Contact[])searchList[0];
+ *  Lead[] searchLeads = (Lead[])searchList[1];
+ */

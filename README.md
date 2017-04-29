@@ -13,6 +13,8 @@
     * [RestrictContactByName.trigger]( src/triggers/RestrictContactByName.trigger)
     * [TestRestrictContactByName.cls]( src/classes/TestRestrictContactByName.cls)
   * Create Test Data for Apex Tests
+    * [TestDataFactory.cls]( src/classes/TestDataFactory.cls)
+    * [TestAccountDeletion.cls]( src/classes/TestAccountDeletion.cls)
     * [RandomContactFactory.cls]( src/classes/RandomContactFactory.cls)
 * Visualforce Basics
   * Use Standard Controllers

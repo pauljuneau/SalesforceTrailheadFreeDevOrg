@@ -66,9 +66,7 @@
 	"expanded_folders":
 	[
 		"/C/Users/pjuneau/mavensmate/pjuneau@trailhead.com",
-		"/C/Users/pjuneau/mavensmate/pjuneau@trailhead.com/src",
-		"/C/Users/pjuneau/mavensmate/pjuneau@trailhead.com/src/pages",
-		"/C/Users/pjuneau/mavensmate/pjuneau@trailhead.com/src/triggers"
+		"/C/Users/pjuneau/mavensmate/pjuneau@trailhead.com/src"
 	],
 	"file_history":
 	[
@@ -201,7 +199,7 @@
 				{
 					"buffer": 0,
 					"file": "src/pages/CreateContact.page",
-					"semi_transient": true,
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 600,

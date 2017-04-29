@@ -8,6 +8,10 @@
     * [AccountAddressTrigger.trigger]( src/triggers/AccountAddressTrigger.trigger)
   * Bulk Apex Triggers
     * [ClosedOpportunityTrigger.trigger]( src/triggers/ClosedOpportunityTrigger.trigger)
+* Apex Testing
+  * Test Apex Triggers
+    * [RestrictContactByName.trigger]( src/triggers/RestrictContactByName.trigger)
+    * [TestRestrictContactByName.cls]( src/classes/TestRestrictContactByName.cls)
 * Visualforce Basics
   * Use Standard Controllers
     * [AccountSummary.page](/src/pages/AccountSummary.page)

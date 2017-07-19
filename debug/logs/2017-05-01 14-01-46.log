@@ -1,0 +1,230 @@
+39.0 APEX_CODE,FINEST;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+Execute Anonymous: // Add first contact and related details
+Execute Anonymous: Contact contact1 = new Contact(
+Execute Anonymous:    Firstname='Quentin',
+Execute Anonymous:    Lastname='Foam',
+Execute Anonymous:    Phone='(415)555-1212',
+Execute Anonymous:    Department= 'Specialty Crisis Management',
+Execute Anonymous:    Title='Control Engineer - Specialty - Solar Arrays',
+Execute Anonymous:    Email='qfoam@trailhead.com');
+Execute Anonymous: insert contact1;
+Execute Anonymous: 
+Execute Anonymous: // Add second contact and related details
+Execute Anonymous: Contact contact2 = new Contact(
+Execute Anonymous:    Firstname='Vega',
+Execute Anonymous:    Lastname='North',
+Execute Anonymous:    Phone='(416)556-1312',
+Execute Anonymous:    Department= 'Specialty Crisis Management',
+Execute Anonymous:    Title='Control Engineer - Specialty - Propulsion',
+Execute Anonymous:    Email='vnorth@trailhead.com');
+Execute Anonymous: insert contact2;
+Execute Anonymous: 
+Execute Anonymous: // Add third contact and related details
+Execute Anonymous: Contact contact3 = new Contact(
+Execute Anonymous:    Firstname='Palma',
+Execute Anonymous:    Lastname='Sunrise',
+Execute Anonymous:    Phone='(554)623-1212',
+Execute Anonymous:    Department= 'Specialty Crisis Management',
+Execute Anonymous:    Title='Control Engineer - Specialty - Radiators',
+Execute Anonymous:    Email='psunrise@trailhead.com');
+Execute Anonymous: insert contact3;
+14:01:45.2 (2124951)|USER_INFO|[EXTERNAL]|00536000002KqDD|pjuneau@trailhead.com|Pacific Standard Time|GMT-07:00
+14:01:45.2 (2141154)|EXECUTION_STARTED
+14:01:45.2 (2146075)|CODE_UNIT_STARTED|[EXTERNAL]|execute_anonymous_apex
+14:01:45.2 (2353072)|VARIABLE_SCOPE_BEGIN|[2]|contact1|Contact|true|false
+14:01:45.2 (2367414)|VARIABLE_SCOPE_BEGIN|[12]|contact2|Contact|true|false
+14:01:45.2 (2375743)|VARIABLE_SCOPE_BEGIN|[22]|contact3|Contact|true|false
+14:01:45.2 (2510541)|HEAP_ALLOCATE|[72]|Bytes:3
+14:01:45.2 (2545862)|HEAP_ALLOCATE|[77]|Bytes:152
+14:01:45.2 (2567795)|HEAP_ALLOCATE|[342]|Bytes:408
+14:01:45.2 (2604152)|HEAP_ALLOCATE|[355]|Bytes:408
+14:01:45.2 (2637590)|HEAP_ALLOCATE|[467]|Bytes:48
+14:01:45.2 (2680672)|HEAP_ALLOCATE|[139]|Bytes:6
+14:01:45.2 (2722586)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:63
+14:01:45.2 (2912521)|STATEMENT_EXECUTE|[1]
+14:01:45.2 (2919447)|STATEMENT_EXECUTE|[2]
+14:01:45.2 (2947294)|HEAP_ALLOCATE|[2]|Bytes:4
+14:01:45.2 (3069288)|HEAP_ALLOCATE|[3]|Bytes:7
+14:01:45.2 (3160436)|VARIABLE_ASSIGNMENT|[2]|this.FirstName|"Quentin"|0x43a57f36
+14:01:45.2 (3169934)|HEAP_ALLOCATE|[4]|Bytes:4
+14:01:45.2 (3227208)|VARIABLE_ASSIGNMENT|[2]|this.LastName|"Foam"|0x43a57f36
+14:01:45.2 (3236598)|HEAP_ALLOCATE|[5]|Bytes:13
+14:01:45.2 (3283430)|VARIABLE_ASSIGNMENT|[2]|this.Phone|"(415)555-1212"|0x43a57f36
+14:01:45.2 (3291004)|HEAP_ALLOCATE|[6]|Bytes:27
+14:01:45.2 (3342476)|VARIABLE_ASSIGNMENT|[2]|this.Department|"Specialty Crisis Man (7 more) ..."|0x43a57f36
+14:01:45.2 (3350816)|HEAP_ALLOCATE|[7]|Bytes:43
+14:01:45.2 (3415601)|VARIABLE_ASSIGNMENT|[2]|this.Title|"Control Engineer - S (23 more) ..."|0x43a57f36
+14:01:45.2 (3424118)|HEAP_ALLOCATE|[8]|Bytes:19
+14:01:45.2 (3464060)|VARIABLE_ASSIGNMENT|[2]|this.Email|"qfoam@trailhead.com"|0x43a57f36
+14:01:45.2 (3549703)|VARIABLE_ASSIGNMENT|[2]|contact1|{"FirstName":"Quentin","LastName":"Foam","Phone":"(415)555-1212","Department":"Specialty Crisis Man (7 more) ...","Title":"Control Engineer - S (23 more) ...","Email":"qfoam@trailhead.com"}|0x43a57f36
+14:01:45.2 (3558534)|STATEMENT_EXECUTE|[9]
+14:01:45.2 (3599566)|HEAP_ALLOCATE|[50]|Bytes:5
+14:01:45.2 (3643302)|HEAP_ALLOCATE|[56]|Bytes:5
+14:01:45.2 (3664439)|HEAP_ALLOCATE|[64]|Bytes:7
+14:01:45.2 (3725215)|HEAP_ALLOCATE|[9]|Bytes:8
+14:01:45.2 (3734889)|DML_BEGIN|[9]|Op:Insert|Type:Contact|Rows:1
+14:01:45.2 (3775030)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+14:01:45.2 (193282841)|CODE_UNIT_STARTED|[EXTERNAL]|01q36000001N8Mg|RestrictContactByName on Contact trigger event BeforeInsert for [new]
+14:01:45.2 (193339654)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+14:01:45.2 (193475250)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+14:01:45.2 (193497446)|VARIABLE_SCOPE_BEGIN|[1]|this|RestrictContactByName|true|false
+14:01:45.2 (193580199)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x5e9901ca
+14:01:45.2 (193653727)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+14:01:45.2 (193750779)|VARIABLE_SCOPE_BEGIN|[1]|this|RestrictContactByName|true|false
+14:01:45.2 (193771951)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x5e9901ca
+14:01:45.2 (193784703)|STATEMENT_EXECUTE|[1]
+14:01:45.2 (194152204)|HEAP_ALLOCATE|[4]|Bytes:5
+14:01:45.2 (194191850)|HEAP_ALLOCATE|[4]|Bytes:4
+14:01:45.2 (194202355)|VARIABLE_SCOPE_BEGIN|[4]|c|Contact|true|false
+14:01:45.2 (197668538)|VARIABLE_ASSIGNMENT|[4]|c|{"IsDeleted":false,"Email":"qfoam@trailhead.com","IsEmailBounced":false,"DoNotCall":false,"FirstName":"Quentin","HasOptedOutOfEmail":false,"HasOptedOutOfFax":false,"Title":"Control Engineer - S (23 more) ...","Department":"Specialty Crisis Man (7 more) ...","CleanStatus":"Pending","OwnerId":"00536000002KqDDAA0","Phone":"(415)555-1212","LastName":"Foam"}|0x7bdf58c2
+14:01:45.2 (197687619)|STATEMENT_EXECUTE|[4]
+14:01:45.2 (197729486)|HEAP_ALLOCATE|[5]|Bytes:11
+14:01:45.2 (197772447)|STATEMENT_EXECUTE|[5]
+14:01:45.2 (197798939)|HEAP_ALLOCATE|[4]|Bytes:5
+14:01:45.2 (197828642)|VARIABLE_ASSIGNMENT|[4]|c|null|
+14:01:45.197 (197844641)|CUMULATIVE_LIMIT_USAGE
+14:01:45.197 (197844641)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 1 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:01:45.197 (197844641)|CUMULATIVE_LIMIT_USAGE_END
+
+14:01:45.2 (200113376)|CODE_UNIT_FINISHED|RestrictContactByName on Contact trigger event BeforeInsert for [new]
+14:01:45.2 (535541137)|DML_END|[9]
+14:01:45.2 (535575765)|STATEMENT_EXECUTE|[12]
+14:01:45.2 (535604410)|HEAP_ALLOCATE|[12]|Bytes:4
+14:01:45.2 (535628214)|HEAP_ALLOCATE|[13]|Bytes:4
+14:01:45.2 (535700009)|VARIABLE_ASSIGNMENT|[12]|this.FirstName|"Vega"|0x3f786d2a
+14:01:45.2 (535708725)|HEAP_ALLOCATE|[14]|Bytes:5
+14:01:45.2 (535754231)|VARIABLE_ASSIGNMENT|[12]|this.LastName|"North"|0x3f786d2a
+14:01:45.2 (535762859)|HEAP_ALLOCATE|[15]|Bytes:13
+14:01:45.2 (535807981)|VARIABLE_ASSIGNMENT|[12]|this.Phone|"(416)556-1312"|0x3f786d2a
+14:01:45.2 (535856250)|VARIABLE_ASSIGNMENT|[12]|this.Department|"Specialty Crisis Man (7 more) ..."|0x3f786d2a
+14:01:45.2 (535864887)|HEAP_ALLOCATE|[17]|Bytes:41
+14:01:45.2 (535914016)|VARIABLE_ASSIGNMENT|[12]|this.Title|"Control Engineer - S (21 more) ..."|0x3f786d2a
+14:01:45.2 (535923059)|HEAP_ALLOCATE|[18]|Bytes:20
+14:01:45.2 (535969829)|VARIABLE_ASSIGNMENT|[12]|this.Email|"vnorth@trailhead.com"|0x3f786d2a
+14:01:45.2 (536041054)|VARIABLE_ASSIGNMENT|[12]|contact2|{"FirstName":"Vega","LastName":"North","Phone":"(416)556-1312","Department":"Specialty Crisis Man (7 more) ...","Title":"Control Engineer - S (21 more) ...","Email":"vnorth@trailhead.com"}|0x3f786d2a
+14:01:45.2 (536050683)|STATEMENT_EXECUTE|[19]
+14:01:45.2 (536086134)|HEAP_ALLOCATE|[19]|Bytes:8
+14:01:45.2 (536095023)|DML_BEGIN|[19]|Op:Insert|Type:Contact|Rows:1
+14:01:45.2 (536141214)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+14:01:45.2 (543450258)|CODE_UNIT_STARTED|[EXTERNAL]|01q36000001N8Mg|RestrictContactByName on Contact trigger event BeforeInsert for [new]
+14:01:45.2 (543508256)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+14:01:45.2 (543572242)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+14:01:45.2 (543585663)|VARIABLE_SCOPE_BEGIN|[1]|this|RestrictContactByName|true|false
+14:01:45.2 (543619629)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x46d230eb
+14:01:45.2 (543653747)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+14:01:45.2 (543659744)|VARIABLE_SCOPE_BEGIN|[1]|this|RestrictContactByName|true|false
+14:01:45.2 (543669660)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x46d230eb
+14:01:45.2 (543678194)|STATEMENT_EXECUTE|[1]
+14:01:45.2 (543740196)|HEAP_ALLOCATE|[4]|Bytes:5
+14:01:45.2 (543756291)|HEAP_ALLOCATE|[4]|Bytes:4
+14:01:45.2 (543766352)|VARIABLE_SCOPE_BEGIN|[4]|c|Contact|true|false
+14:01:45.2 (544274434)|VARIABLE_ASSIGNMENT|[4]|c|{"IsDeleted":false,"Email":"vnorth@trailhead.com","IsEmailBounced":false,"DoNotCall":false,"FirstName":"Vega","HasOptedOutOfEmail":false,"HasOptedOutOfFax":false,"Title":"Control Engineer - S (21 more) ...","Department":"Specialty Crisis Man (7 more) ...","CleanStatus":"Pending","OwnerId":"00536000002KqDDAA0","Phone":"(416)556-1312","LastName":"North"}|0xbf943d7
+14:01:45.2 (544283722)|STATEMENT_EXECUTE|[4]
+14:01:45.2 (544310955)|STATEMENT_EXECUTE|[5]
+14:01:45.2 (544325150)|HEAP_ALLOCATE|[4]|Bytes:5
+14:01:45.2 (544339482)|VARIABLE_ASSIGNMENT|[4]|c|null|
+14:01:45.544 (544347791)|CUMULATIVE_LIMIT_USAGE
+14:01:45.544 (544347791)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 2 out of 150
+  Number of DML rows: 2 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:01:45.544 (544347791)|CUMULATIVE_LIMIT_USAGE_END
+
+14:01:45.2 (546596586)|CODE_UNIT_FINISHED|RestrictContactByName on Contact trigger event BeforeInsert for [new]
+14:01:45.2 (581606349)|DML_END|[19]
+14:01:45.2 (581640152)|STATEMENT_EXECUTE|[22]
+14:01:45.2 (581661908)|HEAP_ALLOCATE|[22]|Bytes:4
+14:01:45.2 (581682740)|HEAP_ALLOCATE|[23]|Bytes:5
+14:01:45.2 (581740503)|VARIABLE_ASSIGNMENT|[22]|this.FirstName|"Palma"|0x346d4c1
+14:01:45.2 (581746622)|HEAP_ALLOCATE|[24]|Bytes:7
+14:01:45.2 (581773192)|VARIABLE_ASSIGNMENT|[22]|this.LastName|"Sunrise"|0x346d4c1
+14:01:45.2 (581778258)|HEAP_ALLOCATE|[25]|Bytes:13
+14:01:45.2 (581803380)|VARIABLE_ASSIGNMENT|[22]|this.Phone|"(554)623-1212"|0x346d4c1
+14:01:45.2 (581830784)|VARIABLE_ASSIGNMENT|[22]|this.Department|"Specialty Crisis Man (7 more) ..."|0x346d4c1
+14:01:45.2 (581836100)|HEAP_ALLOCATE|[27]|Bytes:40
+14:01:45.2 (581862749)|VARIABLE_ASSIGNMENT|[22]|this.Title|"Control Engineer - S (20 more) ..."|0x346d4c1
+14:01:45.2 (581867775)|HEAP_ALLOCATE|[28]|Bytes:22
+14:01:45.2 (581892808)|VARIABLE_ASSIGNMENT|[22]|this.Email|"psunrise@trailhead.c (2 more) ..."|0x346d4c1
+14:01:45.2 (581958801)|VARIABLE_ASSIGNMENT|[22]|contact3|{"FirstName":"Palma","LastName":"Sunrise","Phone":"(554)623-1212","Department":"Specialty Crisis Man (7 more) ...","Title":"Control Engineer - S (20 more) ...","Email":"psunrise@trailhead.c (2 more) ..."}|0x346d4c1
+14:01:45.2 (581964530)|STATEMENT_EXECUTE|[29]
+14:01:45.2 (581996103)|HEAP_ALLOCATE|[29]|Bytes:8
+14:01:45.2 (582004098)|DML_BEGIN|[29]|Op:Insert|Type:Contact|Rows:1
+14:01:45.2 (582036307)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+14:01:45.2 (589227503)|CODE_UNIT_STARTED|[EXTERNAL]|01q36000001N8Mg|RestrictContactByName on Contact trigger event BeforeInsert for [new]
+14:01:45.2 (589295057)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+14:01:45.2 (589367216)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+14:01:45.2 (589382666)|VARIABLE_SCOPE_BEGIN|[1]|this|RestrictContactByName|true|false
+14:01:45.2 (589423438)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x7d71607a
+14:01:45.2 (589462512)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+14:01:45.2 (589477695)|VARIABLE_SCOPE_BEGIN|[1]|this|RestrictContactByName|true|false
+14:01:45.2 (589492814)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x7d71607a
+14:01:45.2 (589503275)|STATEMENT_EXECUTE|[1]
+14:01:45.2 (589574596)|HEAP_ALLOCATE|[4]|Bytes:5
+14:01:45.2 (589600219)|HEAP_ALLOCATE|[4]|Bytes:4
+14:01:45.2 (589614385)|VARIABLE_SCOPE_BEGIN|[4]|c|Contact|true|false
+14:01:45.2 (590141858)|VARIABLE_ASSIGNMENT|[4]|c|{"IsDeleted":false,"Email":"psunrise@trailhead.c (2 more) ...","IsEmailBounced":false,"DoNotCall":false,"FirstName":"Palma","HasOptedOutOfEmail":false,"HasOptedOutOfFax":false,"Title":"Control Engineer - S (20 more) ...","Department":"Specialty Crisis Man (7 more) ...","CleanStatus":"Pending","OwnerId":"00536000002KqDDAA0","Phone":"(554)623-1212","LastName":"Sunrise"}|0x7a2ea7bd
+14:01:45.2 (590153723)|STATEMENT_EXECUTE|[4]
+14:01:45.2 (590174355)|STATEMENT_EXECUTE|[5]
+14:01:45.2 (590188445)|HEAP_ALLOCATE|[4]|Bytes:5
+14:01:45.2 (590206336)|VARIABLE_ASSIGNMENT|[4]|c|null|
+14:01:45.590 (590214353)|CUMULATIVE_LIMIT_USAGE
+14:01:45.590 (590214353)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 3 out of 150
+  Number of DML rows: 3 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:01:45.590 (590214353)|CUMULATIVE_LIMIT_USAGE_END
+
+14:01:45.2 (592512442)|CODE_UNIT_FINISHED|RestrictContactByName on Contact trigger event BeforeInsert for [new]
+14:01:45.2 (635098867)|DML_END|[29]
+14:01:45.721 (721477645)|CUMULATIVE_LIMIT_USAGE
+14:01:45.721 (721477645)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 3 out of 150
+  Number of DML rows: 3 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:01:45.721 (721477645)|CUMULATIVE_LIMIT_USAGE_END
+
+14:01:45.2 (721562604)|CODE_UNIT_FINISHED|execute_anonymous_apex
+14:01:45.2 (723326608)|EXECUTION_FINISHED

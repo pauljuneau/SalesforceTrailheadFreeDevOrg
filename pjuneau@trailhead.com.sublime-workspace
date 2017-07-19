@@ -26,6 +26,30 @@
 				"buffer_size": 600,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "src/classes/TestDataFactory.cls",
+			"settings":
+			{
+				"buffer_size": 1042,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/classes/TestAccountDeletion.cls",
+			"settings":
+			{
+				"buffer_size": 2801,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/package.xml",
+			"settings":
+			{
+				"buffer_size": 3667,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
@@ -66,10 +90,13 @@
 	"expanded_folders":
 	[
 		"/C/Users/pjuneau/mavensmate/pjuneau@trailhead.com",
-		"/C/Users/pjuneau/mavensmate/pjuneau@trailhead.com/src"
+		"/C/Users/pjuneau/mavensmate/pjuneau@trailhead.com/src",
+		"/C/Users/pjuneau/mavensmate/pjuneau@trailhead.com/src/aura",
+		"/C/Users/pjuneau/mavensmate/pjuneau@trailhead.com/src/aura/meetGreet"
 	],
 	"file_history":
 	[
+		"/C/Users/pjuneau/mavensmate/pjuneau@trailhead.com/src/package.xml",
 		"/C/Users/pjuneau/mavensmate/pjuneau@trailhead.com/src/classes/EmailManager.cls",
 		"/C/Users/pjuneau/mavensmate/pjuneau@trailhead.com/src/triggers/AccountAddressTrigger.trigger",
 		"/C/Users/pjuneau/mavensmate/pjuneau@trailhead.com/src/triggers/ClosedOpportunityTrigger.trigger",
@@ -193,7 +220,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -209,8 +236,8 @@
 						"selection":
 						[
 							[
-								600,
-								600
+								333,
+								333
 							]
 						],
 						"settings":
@@ -221,6 +248,96 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/classes/TestDataFactory.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1042,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/classes/TestAccountDeletion.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2801,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/package.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3667,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								418,
+								418
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 60.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -281,6 +398,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"testaccou",
+				"src\\classes\\TestAccountDeletion.cls"
+			],
+			[
+				"testdat",
+				"src\\classes\\TestDataFactory.cls"
+			]
 		],
 		"width": 0.0
 	},

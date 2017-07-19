@@ -1,0 +1,93 @@
+39.0 APEX_CODE,FINEST;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+Execute Anonymous: Contact thisContact = new Contact( Firstname='Brian', Lastname='Dent', Phone='(619)852-4569', Department='Mission Control', Title='Mission Specialist - Neptune', Email='briandent@trailhead.com');
+Execute Anonymous: insert thisContact;
+14:16:09.2 (2447111)|USER_INFO|[EXTERNAL]|00536000002KqDD|pjuneau@trailhead.com|Pacific Standard Time|GMT-07:00
+14:16:09.2 (2463436)|EXECUTION_STARTED
+14:16:09.2 (2467664)|CODE_UNIT_STARTED|[EXTERNAL]|execute_anonymous_apex
+14:16:09.2 (2645868)|VARIABLE_SCOPE_BEGIN|[1]|thisContact|Contact|true|false
+14:16:09.2 (2798472)|HEAP_ALLOCATE|[72]|Bytes:3
+14:16:09.2 (2859688)|HEAP_ALLOCATE|[77]|Bytes:152
+14:16:09.2 (2881460)|HEAP_ALLOCATE|[342]|Bytes:408
+14:16:09.2 (2902889)|HEAP_ALLOCATE|[355]|Bytes:408
+14:16:09.2 (2922921)|HEAP_ALLOCATE|[467]|Bytes:48
+14:16:09.2 (2955134)|HEAP_ALLOCATE|[139]|Bytes:6
+14:16:09.2 (2983620)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:3
+14:16:09.2 (3113967)|STATEMENT_EXECUTE|[1]
+14:16:09.2 (3118476)|STATEMENT_EXECUTE|[1]
+14:16:09.2 (3141862)|HEAP_ALLOCATE|[1]|Bytes:4
+14:16:09.2 (3256925)|HEAP_ALLOCATE|[1]|Bytes:5
+14:16:09.2 (3335367)|VARIABLE_ASSIGNMENT|[1]|this.FirstName|"Brian"|0x1c4d0194
+14:16:09.2 (3345573)|HEAP_ALLOCATE|[1]|Bytes:4
+14:16:09.2 (3420084)|VARIABLE_ASSIGNMENT|[1]|this.LastName|"Dent"|0x1c4d0194
+14:16:09.2 (3429596)|HEAP_ALLOCATE|[1]|Bytes:13
+14:16:09.2 (3474747)|VARIABLE_ASSIGNMENT|[1]|this.Phone|"(619)852-4569"|0x1c4d0194
+14:16:09.2 (3481053)|HEAP_ALLOCATE|[1]|Bytes:15
+14:16:09.2 (3509629)|VARIABLE_ASSIGNMENT|[1]|this.Department|"Mission Control"|0x1c4d0194
+14:16:09.2 (3514330)|HEAP_ALLOCATE|[1]|Bytes:28
+14:16:09.2 (3545029)|VARIABLE_ASSIGNMENT|[1]|this.Title|"Mission Specialist - (8 more) ..."|0x1c4d0194
+14:16:09.2 (3549806)|HEAP_ALLOCATE|[1]|Bytes:23
+14:16:09.2 (3574831)|VARIABLE_ASSIGNMENT|[1]|this.Email|"briandent@trailhead. (3 more) ..."|0x1c4d0194
+14:16:09.2 (3658658)|VARIABLE_ASSIGNMENT|[1]|thisContact|{"FirstName":"Brian","LastName":"Dent","Phone":"(619)852-4569","Department":"Mission Control","Title":"Mission Specialist - (8 more) ...","Email":"briandent@trailhead. (3 more) ..."}|0x1c4d0194
+14:16:09.2 (3664729)|STATEMENT_EXECUTE|[2]
+14:16:09.2 (3716111)|HEAP_ALLOCATE|[50]|Bytes:5
+14:16:09.2 (3754324)|HEAP_ALLOCATE|[56]|Bytes:5
+14:16:09.2 (3771187)|HEAP_ALLOCATE|[64]|Bytes:7
+14:16:09.2 (3833349)|HEAP_ALLOCATE|[2]|Bytes:8
+14:16:09.2 (3844385)|DML_BEGIN|[2]|Op:Insert|Type:Contact|Rows:1
+14:16:09.2 (3889153)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+14:16:09.2 (26907891)|CODE_UNIT_STARTED|[EXTERNAL]|01q36000001N8Mg|RestrictContactByName on Contact trigger event BeforeInsert for [new]
+14:16:09.2 (26968168)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+14:16:09.2 (27145998)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+14:16:09.2 (27168922)|VARIABLE_SCOPE_BEGIN|[1]|this|RestrictContactByName|true|false
+14:16:09.2 (27220803)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x60ca555d
+14:16:09.2 (27296291)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+14:16:09.2 (27308156)|VARIABLE_SCOPE_BEGIN|[1]|this|RestrictContactByName|true|false
+14:16:09.2 (27325462)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x60ca555d
+14:16:09.2 (27337110)|STATEMENT_EXECUTE|[1]
+14:16:09.2 (27730571)|HEAP_ALLOCATE|[4]|Bytes:5
+14:16:09.2 (27759958)|HEAP_ALLOCATE|[4]|Bytes:4
+14:16:09.2 (27774118)|VARIABLE_SCOPE_BEGIN|[4]|c|Contact|true|false
+14:16:09.2 (31802844)|VARIABLE_ASSIGNMENT|[4]|c|{"IsDeleted":false,"Email":"briandent@trailhead. (3 more) ...","IsEmailBounced":false,"DoNotCall":false,"FirstName":"Brian","HasOptedOutOfEmail":false,"HasOptedOutOfFax":false,"Title":"Mission Specialist - (8 more) ...","Department":"Mission Control","CleanStatus":"Pending","OwnerId":"00536000002KqDDAA0","Phone":"(619)852-4569","LastName":"Dent"}|0x2ddd8ce3
+14:16:09.2 (31823647)|STATEMENT_EXECUTE|[4]
+14:16:09.2 (31861196)|HEAP_ALLOCATE|[5]|Bytes:11
+14:16:09.2 (31910153)|STATEMENT_EXECUTE|[5]
+14:16:09.2 (31947865)|HEAP_ALLOCATE|[4]|Bytes:5
+14:16:09.2 (31978676)|VARIABLE_ASSIGNMENT|[4]|c|null|
+14:16:09.31 (31994374)|CUMULATIVE_LIMIT_USAGE
+14:16:09.31 (31994374)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 1 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:16:09.31 (31994374)|CUMULATIVE_LIMIT_USAGE_END
+
+14:16:09.2 (34020666)|CODE_UNIT_FINISHED|RestrictContactByName on Contact trigger event BeforeInsert for [new]
+14:16:09.2 (104555536)|DML_END|[2]
+14:16:09.137 (137170800)|CUMULATIVE_LIMIT_USAGE
+14:16:09.137 (137170800)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 1 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:16:09.137 (137170800)|CUMULATIVE_LIMIT_USAGE_END
+
+14:16:09.2 (137237764)|CODE_UNIT_FINISHED|execute_anonymous_apex
+14:16:09.2 (139355110)|EXECUTION_FINISHED

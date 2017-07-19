@@ -1,0 +1,71 @@
+39.0 APEX_CODE,FINEST;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+Execute Anonymous: List<List<sObject>> searchList = [FIND 'Mission Control' IN ALL FIELDS 
+Execute Anonymous:                                   RETURNING Contact(FirstName, LastName,
+Execute Anonymous:                                   Phone, Email, Description)];
+Execute Anonymous: Contact[] searchContacts = (Contact[])searchList[0];
+Execute Anonymous: System.debug('Found the following contacts:');
+Execute Anonymous: for (Contact c : searchContacts) {
+Execute Anonymous:    System.debug(c.LastName + ', ' + c.FirstName);
+Execute Anonymous: }
+14:17:27.2 (2739442)|USER_INFO|[EXTERNAL]|00536000002KqDD|pjuneau@trailhead.com|Pacific Standard Time|GMT-07:00
+14:17:27.2 (2760484)|EXECUTION_STARTED
+14:17:27.2 (2767203)|CODE_UNIT_STARTED|[EXTERNAL]|execute_anonymous_apex
+14:17:27.2 (3045393)|VARIABLE_SCOPE_BEGIN|[4]|searchContacts|List<Contact>|true|false
+14:17:27.2 (3063765)|VARIABLE_SCOPE_BEGIN|[1]|searchList|List<List<SObject>>|true|false
+14:17:27.2 (3268931)|HEAP_ALLOCATE|[72]|Bytes:3
+14:17:27.2 (3370646)|HEAP_ALLOCATE|[77]|Bytes:152
+14:17:27.2 (3408184)|HEAP_ALLOCATE|[342]|Bytes:408
+14:17:27.2 (3448212)|HEAP_ALLOCATE|[355]|Bytes:408
+14:17:27.2 (3485884)|HEAP_ALLOCATE|[467]|Bytes:48
+14:17:27.2 (3535451)|HEAP_ALLOCATE|[139]|Bytes:6
+14:17:27.2 (3583439)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:9
+14:17:27.2 (3838907)|STATEMENT_EXECUTE|[1]
+14:17:27.2 (3844781)|STATEMENT_EXECUTE|[1]
+14:17:27.2 (3850459)|HEAP_ALLOCATE|[1]|Bytes:102
+14:17:27.2 (3865997)|HEAP_ALLOCATE|[1]|Bytes:4
+14:17:27.2 (3923022)|HEAP_ALLOCATE|[50]|Bytes:5
+14:17:27.2 (3960153)|HEAP_ALLOCATE|[56]|Bytes:5
+14:17:27.2 (3981539)|HEAP_ALLOCATE|[64]|Bytes:7
+14:17:27.2 (4426449)|SOSL_EXECUTE_BEGIN|[1]|FIND 'Mission Control' IN ALL FIELDS RETURNING contact(FirstName, LastName, Phone, Email, Description)
+14:17:27.2 (30235115)|HEAP_ALLOCATE|[1]|Bytes:4
+14:17:27.2 (30247058)|HEAP_ALLOCATE|[1]|Bytes:4
+14:17:27.2 (30266793)|HEAP_ALLOCATE|[1]|Bytes:8
+14:17:27.2 (30334886)|SOSL_EXECUTE_END|[1]|Rows:1
+14:17:27.2 (30404704)|HEAP_ALLOCATE|[1]|Bytes:8
+14:17:27.2 (30498926)|VARIABLE_ASSIGNMENT|[1]|searchList|[[{"FirstName":"Brian","LastName":"Dent","Phone":"(619)852-4569","Email":"briandent@trailhead. (3 more) ...","Id":"0033600000zO8AwAAK"}]]|0x61d1a0d
+14:17:27.2 (30512869)|STATEMENT_EXECUTE|[4]
+14:17:27.2 (30563736)|HEAP_ALLOCATE|[4]|Bytes:8
+14:17:27.2 (30660804)|VARIABLE_ASSIGNMENT|[4]|searchContacts|[{"FirstName":"Brian","LastName":"Dent","Phone":"(619)852-4569","Email":"briandent@trailhead. (3 more) ...","Id":"0033600000zO8AwAAK"}]|0x6dbe951b
+14:17:27.2 (30670474)|STATEMENT_EXECUTE|[5]
+14:17:27.2 (30676126)|HEAP_ALLOCATE|[5]|Bytes:29
+14:17:27.2 (30764770)|USER_DEBUG|[5]|DEBUG|Found the following contacts:
+14:17:27.2 (31152215)|HEAP_ALLOCATE|[6]|Bytes:5
+14:17:27.2 (31247924)|HEAP_ALLOCATE|[6]|Bytes:24
+14:17:27.2 (31268506)|VARIABLE_SCOPE_BEGIN|[6]|c|Contact|true|false
+14:17:27.2 (31297626)|VARIABLE_ASSIGNMENT|[6]|c|{"FirstName":"Brian","LastName":"Dent","Phone":"(619)852-4569","Email":"briandent@trailhead. (3 more) ...","Id":"0033600000zO8AwAAK"}|0x6dd4cad3
+14:17:27.2 (31305191)|STATEMENT_EXECUTE|[6]
+14:17:27.2 (31308338)|STATEMENT_EXECUTE|[7]
+14:17:27.2 (31351335)|HEAP_ALLOCATE|[7]|Bytes:2
+14:17:27.2 (31397053)|HEAP_ALLOCATE|[7]|Bytes:11
+14:17:27.2 (31438544)|USER_DEBUG|[7]|DEBUG|Dent, Brian
+14:17:27.2 (31466706)|HEAP_ALLOCATE|[6]|Bytes:5
+14:17:27.2 (31489869)|VARIABLE_ASSIGNMENT|[6]|c|null|
+14:17:27.31 (31550191)|CUMULATIVE_LIMIT_USAGE
+14:17:27.31 (31550191)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 1 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+14:17:27.31 (31550191)|CUMULATIVE_LIMIT_USAGE_END
+
+14:17:27.2 (31601225)|CODE_UNIT_FINISHED|execute_anonymous_apex
+14:17:27.2 (34019653)|EXECUTION_FINISHED

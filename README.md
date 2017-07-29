@@ -57,4 +57,4 @@
 
 ### Miscellaneous Code Examples from Salesforce Documentation
 * Visualforce examples
-  * [apex:inputFile] (src/pages/inputFileExample.page) 	
+  * [apex:inputFile]( src/pages/inputFileExample.page) 	

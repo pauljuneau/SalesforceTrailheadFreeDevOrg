@@ -53,3 +53,8 @@
 * Developer Console Basics
   * Navigate and Edit Source Code
     * [Lightning Component: meetGreet]( src/aura/meetGreet/)
+
+
+### Miscellaneous Code Examples from Salesforce Documentation
+* Visualforce examples
+  * [apex:inputFile] (src/pages/inputFileExample.page) 	

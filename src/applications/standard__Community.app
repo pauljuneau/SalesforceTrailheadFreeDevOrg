@@ -6,10 +6,8 @@
     <tab>standard-Account</tab>
     <tab>standard-Idea</tab>
     <tab>standard-IdeaTheme</tab>
-    <tab>standard-Answers</tab>
     <tab>standard-report</tab>
     <tab>standard-Dashboard</tab>
-    <tab>standard-Questions</tab>
     <tab>Candidates__c</tab>
     <tab>Trail__c</tab>
     <tab>Position__c</tab>

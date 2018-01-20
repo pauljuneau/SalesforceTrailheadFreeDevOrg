@@ -5,7 +5,6 @@
     <tab>standard-Workspace</tab>
     <tab>standard-ContentSearch</tab>
     <tab>standard-ContentSubscriptions</tab>
-    <tab>standard-ContentFavorites</tab>
     <tab>Candidates__c</tab>
     <tab>Trail__c</tab>
     <tab>Position__c</tab>

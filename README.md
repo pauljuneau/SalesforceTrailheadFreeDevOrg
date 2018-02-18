@@ -5,13 +5,13 @@
 ### Developer Beginner
 * Process Automation
   * Automate Basic Business Processes with Process Builder
-    * [Update_Contact_Addresses.flowDefinition] ( src/flowDefinitions/Update_Contact_Addresses.flowDefinition)
+    * [Update_Contact_Addresses.flowDefinition]( src/flowDefinitions/Update_Contact_Addresses.flowDefinition)
   * Collect Information from Users and then Operate on It with Visual Workflow
-    * [New_Customer_Flow-1.flow] ( src/flows/New_Customer_Flow-1.flow)
+    * [New_Customer_Flow-1.flow]( src/flows/New_Customer_Flow-1.flow)
   * Automate Sets of Delayed Actions with Workflow
-    * [Account.workflow] ( src/workflows/Account.workflow)
+    * [Account.workflow]( src/workflows/Account.workflow)
   * Customize How Records Get Approved with Approvals
-    * [Account.Approve_New_Account.approvalProcess] ( src/approvalProcesses/Account.Approve_New_Account.approvalProcess)  
+    * [Account.Approve_New_Account.approvalProcess]( src/approvalProcesses/Account.Approve_New_Account.approvalProcess)  
 * Apex Basics & Database
   * Get Started with Apex
     * [EmailManager.cls]( src/classes/EmailManager.cls)

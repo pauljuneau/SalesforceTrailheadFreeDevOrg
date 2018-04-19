@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
-    <!-- Understand Workflow Rules for App Builder Cert -->
-	<fieldUpdates>
+    <fieldUpdates>
         <fullName>Account_Approved</fullName>
         <field>Type</field>
         <literalValue>Customer</literalValue>

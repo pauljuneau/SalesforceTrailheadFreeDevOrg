@@ -63,6 +63,12 @@
   * Navigate and Edit Source Code
     * [Lightning Component: meetGreet]( src/aura/meetGreet/)
 
+### Developer Intermediate
+* Lightning Components Basics
+  * Before You Start
+    * [Expense__c.object]( src/objects/Expense__c.object)
+    * [Camping_Item__c.object]( src/objects/Camping_Item__c)
+
 
 ### Miscellaneous Code Examples from Salesforce Documentation
 * Visualforce examples

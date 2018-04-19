@@ -67,7 +67,7 @@
 * Lightning Components Basics
   * Before You Start
     * [Expense__c.object]( src/objects/Expense__c.object)
-    * [Camping_Item__c.object]( src/objects/Camping_Item__c)
+    * [Camping_Item__c.object]( src/objects/Camping_Item__c.object)
 
 
 ### Miscellaneous Code Examples from Salesforce Documentation

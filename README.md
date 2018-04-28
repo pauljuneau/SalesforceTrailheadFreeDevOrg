@@ -70,8 +70,12 @@
     * [Camping_Item__c.object]( src/objects/Camping_Item__c.object)
   * Create and Edit Lightning Components module
     * [harnessApp.app]( src/aura/harnessApp/harnessApp.app)
+      * [harnessAppURL]( https://pjuneautrailhead-dev-ed.lightning.force.com/c/harnessApp.app)
       * App container that holds multiple components: 
         * helloWorld.cmp, camping.cmp
+  * Attributes and Expressions
+    * [helloPlayground.cmp]( src/aura/helloPlayground/helloPlayground.cmp)
+      * Added component to [harnessApp.app]( src/aura/harnessApp/harnessApp.app)
 
 
 ### Miscellaneous Code Examples from Salesforce Documentation

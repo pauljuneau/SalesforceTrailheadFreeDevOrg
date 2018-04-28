@@ -68,6 +68,10 @@
   * Before You Start
     * [Expense__c.object]( src/objects/Expense__c.object)
     * [Camping_Item__c.object]( src/objects/Camping_Item__c.object)
+  * Create and Edit Lightning Components module
+    * [harnessApp.app]( src/aura/harnessApp/harnessApp.app)
+      * App container that holds multiple components: 
+        * helloWorld.cmp, camping.cmp
 
 
 ### Miscellaneous Code Examples from Salesforce Documentation

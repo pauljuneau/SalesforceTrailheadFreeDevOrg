@@ -72,10 +72,11 @@
     * [harnessApp.app]( src/aura/harnessApp/harnessApp.app)
       * [harnessAppURL]( https://pjuneautrailhead-dev-ed.lightning.force.com/c/harnessApp.app)
       * App container that holds multiple components: 
-        * helloWorld.cmp, camping.cmp
+        * helloWorld.cmp, camping.cmp, etc.
   * Attributes and Expressions
     * [helloPlayground.cmp]( src/aura/helloPlayground/helloPlayground.cmp)
       * Added component to [harnessApp.app]( src/aura/harnessApp/harnessApp.app)
+    * [campingListItem.cmp]( src/aura/campingListItem/campingListItem.cmp)  
 
 
 ### Miscellaneous Code Examples from Salesforce Documentation

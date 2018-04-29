@@ -2,6 +2,7 @@
 	
     <!-- <c:helloWorld /> -->
     <!-- <c:camping /> -->
-    <c:helloPlayground />
+    <!--<c:helloPlayground />-->
+    <c:campingListItem />
     
 </aura:application>

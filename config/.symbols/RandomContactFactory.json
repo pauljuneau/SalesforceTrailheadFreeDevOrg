@@ -1,1 +1,109 @@
-null
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "RandomContactFactory",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "RandomContactFactory",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 2
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "generateRandomContacts",
+            "parameters": [
+                {
+                    "name": "numContacts",
+                    "type": "Integer"
+                },
+                {
+                    "name": "lastname",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "List",
+            "type": null
+        }
+    ],
+    "name": "RandomContactFactory",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "RandomContactFactory",
+        "references": [],
+        "type": "RandomContactFactory"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 63,
+                "line": 2
+            },
+            "modifiers": [],
+            "name": "numContacts",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 82,
+                "line": 2
+            },
+            "modifiers": [],
+            "name": "lastname",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 3
+            },
+            "modifiers": [],
+            "name": "contactList",
+            "references": [],
+            "type": "List<Contact>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 4
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 5
+            },
+            "modifiers": [],
+            "name": "testContact",
+            "references": [],
+            "type": "Contact"
+        }
+    ]
+}

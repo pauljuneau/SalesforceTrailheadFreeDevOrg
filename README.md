@@ -3,6 +3,15 @@
 ## Table of Contents:
 
 ### Developer Beginner
+* Process Automation
+  * Automate Basic Business Processes with Process Builder
+    * [Update_Contact_Addresses.flowDefinition]( src/flowDefinitions/Update_Contact_Addresses.flowDefinition)
+  * Collect Information from Users and then Operate on It with Visual Workflow
+    * [New_Customer_Flow-1.flow]( src/flows/New_Customer_Flow-1.flow)
+  * Automate Sets of Delayed Actions with Workflow
+    * [Account.workflow]( src/workflows/Account.workflow)
+  * Customize How Records Get Approved with Approvals
+    * [Account.Approve_New_Account.approvalProcess]( src/approvalProcesses/Account.Approve_New_Account.approvalProcess)  
 * Apex Basics & Database
   * Get Started with Apex
     * [EmailManager.cls]( src/classes/EmailManager.cls)
@@ -53,6 +62,21 @@
 * Developer Console Basics
   * Navigate and Edit Source Code
     * [Lightning Component: meetGreet]( src/aura/meetGreet/)
+
+### Developer Intermediate
+* Lightning Components Basics
+  * Before You Start
+    * [Expense__c.object]( src/objects/Expense__c.object)
+    * [Camping_Item__c.object]( src/objects/Camping_Item__c.object)
+  * Create and Edit Lightning Components module
+    * [harnessApp.app]( src/aura/harnessApp/harnessApp.app)
+      * [harnessAppURL]( https://pjuneautrailhead-dev-ed.lightning.force.com/c/harnessApp.app)
+      * App container that holds multiple components: 
+        * helloWorld.cmp, camping.cmp, etc.
+  * Attributes and Expressions
+    * [helloPlayground.cmp]( src/aura/helloPlayground/helloPlayground.cmp)
+      * Added component to [harnessApp.app]( src/aura/harnessApp/harnessApp.app)
+    * [campingListItem.cmp]( src/aura/campingListItem/campingListItem.cmp)  
 
 
 ### Miscellaneous Code Examples from Salesforce Documentation
